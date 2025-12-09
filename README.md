@@ -1,12 +1,9 @@
-# Trips (Python + React + Postgres)
-
-This is a rewrite of the Trips application using Python (FastAPI), React, and PostgreSQL.
+# Trips (Python + React)
 
 ## Prerequisites
 
 - Python 3.8+
 - Node.js 14+
-- PostgreSQL
 
 ## Setup
 
@@ -14,17 +11,26 @@ This is a rewrite of the Trips application using Python (FastAPI), React, and Po
 
 1. Navigate to the root directory.
 
-2. Install dependencies:
+2. Create and activate a virtual environment (optional but recommended):
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+   ```
+
+3. Install dependencies:
+
    ```bash
    pip install -r backend/requirements.txt
    ```
 
-3. Seed the database (SQLite):
+4. Seed the database (SQLite):
+
    ```bash
    python3 backend/seed.py
    ```
 
-4. Run the server:
+5. Run the server:
    ```bash
    python3 -m uvicorn backend.main:app --reload
    ```
@@ -34,39 +40,34 @@ This is a rewrite of the Trips application using Python (FastAPI), React, and Po
 ### Frontend
 
 1. Navigate to the `frontend` directory:
+
    ```bash
    cd frontend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    ```
+
    The app will be available at `http://localhost:5173`.
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-   The application will be available at `http://localhost:5173`.
 
 ## Features Implemented
 
 - **Backend**: FastAPI application with SQLAlchemy ORM.
-- **Database**: PostgreSQL schema for Tours.
-- **API**: CRUD endpoints for Tours.
-- **Frontend**: React application displaying the Tours overview page.
+- **Database**: SQLite (default) or PostgreSQL.
+- **API**: CRUD endpoints for Tours, Users, Reviews, and Bookings.
+- **Frontend**: React application with Vite.
 
-## Next Steps
+## Project Structure
 
-- Implement User authentication (JWT).
-- Migrate User, Review, and Booking models.
-- Implement Booking and Payment features.
+- `backend/`: FastAPI application code.
+- `frontend/`: React application code.
+- `dev_data/`: Data for seeding the database.
