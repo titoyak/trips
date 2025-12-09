@@ -12,6 +12,8 @@ origins = [
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:3000",
+    "https://trips-app.vercel.app",
+    "*",
 ]
 
 app.add_middleware(
