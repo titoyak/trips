@@ -1,0 +1,61 @@
+id,rating,review,tour_id,user_id
+30,5,Cras mollis nisi parturient mi nec aliquet suspendisse sagittis eros condimentum scelerisque taciti mattis praesent feugiat eu nascetur a tincidunt,21,2
+31,4,Tempus curabitur faucibus auctor bibendum duis gravida tincidunt litora himenaeos facilisis vivamus vehicula potenti semper fusce suspendisse sagittis!,23,2
+32,5,Convallis turpis porttitor sapien ad urna efficitur dui vivamus in praesent nulla hac non potenti!,25,2
+33,4,Habitasse scelerisque class quam primis convallis integer eros congue nulla proin nam faucibus parturient.,29,2
+34,5,Cras consequat fames faucibus ac aliquam dolor a euismod porttitor rhoncus venenatis himenaeos montes tristique pretium libero nisi!,29,3
+35,5,Laoreet justo volutpat per etiam donec at augue penatibus eu facilisis lorem phasellus ipsum tristique urna quam platea.,28,3
+36,5,Senectus lectus eleifend ex lobortis cras nam cursus accumsan tellus lacus faucibus himenaeos posuere!,27,3
+37,4,Pulvinar taciti etiam aenean lacinia natoque interdum fringilla suspendisse nam sapien urna!,21,3
+38,5,Pretium vel inceptos fringilla sit dui fusce varius gravida platea morbi semper erat elit porttitor potenti!,22,17
+39,4,Ex a bibendum quis volutpat consequat euismod vulputate parturient laoreet diam sagittis amet at blandit.,23,17
+40,5,Auctor euismod interdum augue tristique senectus nascetur cras justo eleifend mattis libero id adipiscing amet placerat,24,17
+41,4,A facilisi justo ornare magnis velit diam dictumst parturient arcu nullam rhoncus nec!,26,17
+42,5,Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.,28,17
+43,5,Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.,22,4
+44,5,Semper blandit felis nostra facilisi sodales pulvinar habitasse diam sapien lobortis urna nunc ipsum orci.,23,4
+45,5,Neque amet vel integer placerat ex pretium elementum vitae quis ullamcorper nullam nunc habitant cursus justo!!!,24,4
+46,5,Sollicitudin sagittis ex ut fringilla enim condimentum et netus tristique.,25,4
+47,5,Semper tempus curae at platea lobortis ullamcorper curabitur luctus maecenas nisl laoreet!,29,4
+48,5,Arcu adipiscing lobortis sem finibus consequat ac justo nisi pharetra ultricies facilisi!,29,9
+49,5,Rutrum viverra turpis nunc ultricies dolor ornare metus habitant ex quis sociosqu nascetur pellentesque quam!,27,9
+50,5,Elementum massa porttitor enim vitae eu ligula vivamus amet imperdiet urna tristique donec mattis mus erat.,26,9
+51,5,Fusce ullamcorper gravida libero nullam lacus litora class orci habitant sollicitudin...,25,9
+52,5,Varius potenti proin hendrerit felis sit convallis nunc non id facilisis aliquam platea elementum,22,9
+53,5,Sem feugiat sed lorem vel dignissim platea habitasse dolor suscipit ultricies dapibus,21,9
+54,5,Sem feugiat sed lorem vel dignissim platea habitasse dolor suscipit ultricies dapibus,22,8
+55,4,Tortor dolor sed vehicula neque ultrices varius orci feugiat dignissim auctor consequat.,25,8
+56,5,Felis mauris aenean eu lectus fringilla habitasse nullam eros senectus ante etiam!,27,8
+57,3,Blandit varius nascetur est felis praesent lorem himenaeos pretium dapibus tellus bibendum consequat ac duis,28,8
+58,5,Blandit varius nascetur est felis praesent lorem himenaeos pretium dapibus tellus bibendum consequat ac duis,21,14
+59,5,Iaculis mauris eget sed nec lobortis rhoncus montes etiam dapibus suspendisse hendrerit quam pellentesque potenti sapien!,22,14
+60,5,Netus eleifend adipiscing ligula placerat fusce orci sollicitudin vivamus conubia.,23,14
+61,4,Eleifend suspendisse ultricies platea primis ut ornare purus vel taciti faucibus justo nunc,24,14
+62,4,Malesuada consequat congue vel gravida eros conubia in sapien praesent diam!,26,14
+63,5,Curabitur maximus montes vestibulum nulla vel dictum cubilia himenaeos nunc hendrerit amet urna.,27,14
+64,5,Curabitur maximus montes vestibulum nulla vel dictum cubilia himenaeos nunc hendrerit amet urna.,29,15
+65,5,Sociosqu eleifend tincidunt aenean condimentum gravida lorem arcu pellentesque felis dui feugiat nec.,28,15
+66,1,Ridiculus facilisis sem id aenean amet penatibus gravida phasellus a mus dui lacinia accumsan!!,26,15
+67,5,Venenatis molestie luctus cubilia taciti tempor faucibus nostra nisi curae integer.,22,15
+68,5,Tempor pellentesque eu placerat auctor enim nam suscipit tincidunt natoque ipsum est.,21,15
+69,5,Tempor pellentesque eu placerat auctor enim nam suscipit tincidunt natoque ipsum est.,23,16
+70,5,Conubia semper efficitur rhoncus suspendisse taciti lectus ex sapien dolor molestie fusce class.,24,16
+71,5,Conubia pharetra pulvinar libero hac class congue curabitur mi porttitor!!,26,16
+72,5,Nullam felis dictumst eros nulla torquent arcu inceptos mi faucibus ridiculus pellentesque gravida mauris.,28,16
+73,5,Euismod suscipit ipsum efficitur rutrum dis mus dictumst laoreet lectus.,22,18
+74,4,Massa orci lacus suspendisse maximus ad integer donec arcu parturient facilisis accumsan consectetur non,23,18
+75,5,Blandit varius finibus imperdiet tortor hendrerit erat rhoncus dictumst inceptos massa in.,24,18
+76,4,Tristique semper proin pellentesque ipsum urna habitasse venenatis tincidunt morbi nisi at,25,18
+77,4,Potenti etiam placerat mi metus ipsum curae eget nisl torquent pretium,26,18
+78,5,Molestie non montes at fermentum cubilia quis dis placerat maecenas vulputate sapien facilisis,27,18
+79,5,Velit vulputate faucibus in nascetur praesent potenti primis pulvinar tempor,29,18
+80,5,Magna magnis tellus dui vivamus donec placerat vehicula erat turpis,21,19
+81,5,Ligula lorem taciti fringilla himenaeos ex aliquam litora nam ad maecenas sit phasellus lectus!!,22,19
+82,4,Nam ultrices quis leo viverra tristique curae facilisi luctus sapien eleifend fames orci lacinia pulvinar.,24,19
+83,4,Ullamcorper ac nec id habitant a commodo eget libero cras congue!,27,19
+84,5,Ultrices nam dui ex posuere velit varius himenaeos bibendum fermentum sollicitudin purus,28,19
+85,5,Ultrices nam dui ex posuere velit varius himenaeos bibendum fermentum sollicitudin purus,28,20
+86,2,Vitae vulputate id quam metus orci cras mollis vivamus vehicula sapien et,29,20
+87,5,Sem risus tempor auctor mattis netus montes tincidunt mollis lacinia natoque adipiscing,24,20
+88,5,Feugiat egestas ac pulvinar quis dui ligula tempor ad platea quisque scelerisque!,22,20
+89,4,Quisque egestas faucibus primis ridiculus mi felis tristique curabitur habitasse vehicula,26,20
