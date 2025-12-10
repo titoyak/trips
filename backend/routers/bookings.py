@@ -12,15 +12,16 @@ router = APIRouter(
 
 @router.post("/", response_model=schemas.Booking)
 def create_booking(booking: schemas.BookingCreate, db: Session = Depends(get_db), current_user: models.User = Depends(auth.get_current_user)):
-    # Check if user already has an active booking for this tour
+    # Check if user already has an active booking for this tour on the same date
     existing_booking = db.query(models.Booking).filter(
         models.Booking.user_id == current_user.id,
         models.Booking.tour_id == booking.tour_id,
+        models.Booking.start_date == booking.start_date,
         models.Booking.status == 'booked'
     ).first()
 
     if existing_booking:
-        raise HTTPException(status_code=400, detail="You already have an active booking for this tour.")
+        raise HTTPException(status_code=400, detail="You already have an active booking for this tour on this date.")
 
     # In a real app, we would verify payment with Stripe here
     db_booking = models.Booking(

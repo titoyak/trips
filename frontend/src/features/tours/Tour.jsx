@@ -95,7 +95,7 @@ function Tour() {
     setBookingLoading(true);
     try {
       await axios.post(
-        `${API_BASE_URL}/bookings`,
+        `${API_BASE_URL}/bookings/`,
         { tour_id: tour.id, price: tour.price, start_date: selectedDate },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -103,9 +103,15 @@ function Tour() {
       navigate("/my-bookings");
     } catch (err) {
       console.error("Error booking tour:", err);
-      alert(
-        "Failed to book tour. You already have an active booking for this tour."
-      );
+      if (err.response && err.response.status === 401) {
+        alert("Your session has expired. Please log in again.");
+        localStorage.removeItem("token");
+        navigate("/login");
+        return;
+      }
+      const message =
+        err.response?.data?.detail || "Failed to book tour. Please try again.";
+      alert(message);
     } finally {
       setBookingLoading(false);
     }

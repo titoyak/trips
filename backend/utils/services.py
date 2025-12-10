@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from .. import models
 
 def check_and_update_booking_status(db: Session, user_id: int):
@@ -9,7 +9,7 @@ def check_and_update_booking_status(db: Session, user_id: int):
     """
     bookings = db.query(models.Booking).filter(models.Booking.user_id == user_id).all()
     
-    now = datetime.now()
+    now = datetime.now(timezone.utc)
     updated = False
     
     for booking in bookings:
